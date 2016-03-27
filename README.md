@@ -3,7 +3,7 @@ Archetype for JavaEE7 projects
 
 This project is a good start for a JavaEE7 project it includes the following..
 
-+ [SLF4J])(http://www.slf4j.org/) with [Logback](http://logback.qos.ch/) - logging is implemented and should place itself under C:\apps\YourApplicationName
++ [SLF4J](http://www.slf4j.org/) with [Logback](http://logback.qos.ch/) - logging is implemented and should place itself under C:\apps\YourApplicationName
 + [SWAGGER](http://swagger.io/) with [swagger-jaxrs-doclet](https://github.com/ryankennedy/swagger-jaxrs-doclet) Implemented in the REST Service - When deployed you should get the UI from http://localhost:8080/YourApplicationName/apidocs
 + [Hibernate 4.3.1](http://hibernate.org/) - In the archetype a Javax metamodel of the entities is generated for use with CriteriaBuilder
 + [Lombok 1.16.8](https://projectlombok.org/) - For automatic generation of Getters, Setters, ToString etc with annotations
