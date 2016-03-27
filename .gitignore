@@ -12,4 +12,6 @@
 hs_err_pid*
 /src/main/resources/logging.properties
 /src/main/webapp/apidocs
+/target
+/lib
 /nb-configuration.xml
