@@ -4,23 +4,23 @@ Archetype for JavaEE7 projects
 This project is a good start for a JavaEE7 project in includes the following..
 
 + SL4J with Logback - logging is implemented and should place itself under C:\apps\YourApplicationName
-+ SWAGGER Implemetned in the fist Service - When deployed you should get the UI from http://localhost:8080/YourApplicationName/apidocs
++ SWAGGER Implemented in the REST Service - When deployed you should get the UI from http://localhost:8080/YourApplicationName/apidocs
 + Hibernate 4.3.1 - In the archetype a a Javax metamodel of the entities is generated for use with CriteriaBuilder
 + Lombok 1.16.8 - For automatic generation of Getters, Setters, ToString etc with annotations
 
 ##### Easiest environment to get up and running fast
 
-+ Netbeans 8.1
-+ JDK8
-+ Glassfish 4.1 ( NOT 4.1.1 )
-+ Maven 3 >
++ [Netbeans 8.1] (https://netbeans.org/downloads/) 
++ [JDK8] (http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
++ [Glassfish 4.1 ( NOT 4.1.1 )] (https://glassfish.java.net/download-archive.html)
++ [Maven 3 > ] (https://maven.apache.org/download.cgi)
 
-This project uses the built in Derby in memory database that is preconfigures in Glassfish 4.1.
+This project uses the built in Derby in memory database that is preconfigured in Glassfish 4.1.
 You should be able to compile the project and deploy it directly.
 
 When doing the first "mvn clean install" the following happens.
 
-1. JPA model gen generates the metamodel 
+1. JPAModelGen generates the metamodel 
 2. A logging.properties file is generated and that is later used by logback.xml for its properties
 3. Swagger documentation is generated from Javadoc 
 
